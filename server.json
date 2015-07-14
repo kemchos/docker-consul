@@ -1,8 +1,9 @@
 {
   "datacenter" : "dc1",
   "log_level": "INFO",
+  "client_addr": "0.0.0.0",
   "node_name": "Consul Server",
-  "ui_dir": "/user/share/consul/public",
+  "ui_dir": "/usr/share/consul/public",
   "server": true,
   "data_dir": "/tmp/consul",
   "dns_config": {
